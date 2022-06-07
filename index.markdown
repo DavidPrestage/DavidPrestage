@@ -11,7 +11,7 @@ header:
   caption:
 
 feature_row:
-  - url: /assets/images/cooking.png
+  - url: http://conversion.davidprestage.com/
     image_path: /assets/images/cooking.png
     alt: "Cooking conversion tool"
     title: "Cooking Conversion Web Application"
