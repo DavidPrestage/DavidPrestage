@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My portfolio website. I'm currently studying Computer Science and looking for my first development job.
 baseurl: "/DavidPrestage" # the subpath of your site, e.g. /blog
 url: "https://davidprestage.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username: easi
 github_username:  
 
 # Build settings
@@ -33,6 +33,9 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+atom_feed:
+  hide: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
