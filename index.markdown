@@ -11,19 +11,19 @@ header:
   caption:
 
 feature_row1:
-  - url: http://conversion.davidprestage.com/
+  - url: /cooking-conversion
     image_path: /assets/images/cooking.png
     alt: "Cooking conversion tool"
     title: "Cooking Conversion Web Application"
     excerpt: "Built using: Flask, Python, Postgres, HTML, CSS (Flexbox)"
     btn_label: More info / view webapp
   - image_path: /assets/images/website.jpg
-    url: "#test-link"
+    url: /portfolio
     alt: "davidprestage.com"
     title: "Portfolio website davidprestage.com"
     excerpt: "Built using: Jekyll"
     btn_label: More info
-  - url: "#test-link"
+  - url: /cs50
     image_path: /assets/images/cs50.png
     alt: "cs50"
     title: "CS50 Introduction To Computer Science: HarvardX"
@@ -31,7 +31,7 @@ feature_row1:
     btn_label: More info
 
 feature_row2:
-  - url: http://conversion.davidprestage.com/
+  - url: /university
     image_path: /assets/images/birmingham.jpg
     alt: "Birmingham University"
     title: "Birmingham University Taught Coding Assignments"

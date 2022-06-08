@@ -42,6 +42,22 @@ atom_feed:
 masthead_title: "Home"
 logo: "/assets/images/home.png"
 
+#Layout for posts
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+
+
+
 
 
 # Exclude from processing.
