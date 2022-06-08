@@ -10,28 +10,36 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption:
 
-feature_row:
+feature_row1:
   - url: http://conversion.davidprestage.com/
     image_path: /assets/images/cooking.png
     alt: "Cooking conversion tool"
     title: "Cooking Conversion Web Application"
     excerpt: "Built using: Flask, Python, Postgres, HTML, CSS (Flexbox)"
+    btn_label: More info / view webapp
   - image_path: /assets/images/website.jpg
     url: "#test-link"
     alt: "davidprestage.com"
     title: "Portfolio website davidprestage.com"
     excerpt: "Built using: Jekyll"
-    
-    #btn_label: "Read More"
-    #btn_class: "btn--inverse"
-  #- image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    #alt: "placeholder image 3"
-    #title: "Placeholder 3"
-    #excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    btn_label: More info
+  - url: "#test-link"
+    image_path: /assets/images/cs50.png
+    alt: "cs50"
+    title: "CS50 Introduction To Computer Science: HarvardX"
+    excerpt: "Completed coding problem sets and labs in: C, Python, SQL."
+    btn_label: More info
 
-
+feature_row2:
+  - url: http://conversion.davidprestage.com/
+    image_path: /assets/images/birmingham.jpg
+    alt: "Birmingham University"
+    title: "Birmingham University Taught Coding Assignments"
+    excerpt: "Languages covered: Java, SQL"
+    btn_label: More info
 
 ---
 <body>
-{% include feature_row %}
+{% include feature_row id="feature_row1" %}
+{% include feature_row id="feature_row2" %}
 </body>

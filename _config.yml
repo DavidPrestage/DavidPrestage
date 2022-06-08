@@ -34,8 +34,15 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+# Hides the feed icon from the footer of each page
 atom_feed:
   hide: true
+
+#Sets title in top left of each web page
+masthead_title: "Home"
+logo: "/assets/images/home.png"
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
