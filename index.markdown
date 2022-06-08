@@ -16,11 +16,12 @@ feature_row:
     alt: "Cooking conversion tool"
     title: "Cooking Conversion Web Application"
     excerpt: "Built using: Flask, Python, Postgres, HTML, CSS (Flexbox)"
-  #- image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    #alt: "placeholder image 2"
-    #title: "Placeholder 2"
-    #excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    #url: "#test-link"
+  - image_path: /assets/images/website.jpg
+    url: "#test-link"
+    alt: "davidprestage.com"
+    title: "Portfolio website davidprestage.com"
+    excerpt: "Built using: Jekyll"
+    
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
   #- image_path: /assets/images/unsplash-gallery-image-3-th.jpg
