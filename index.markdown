@@ -17,11 +17,11 @@ feature_row1:
     title: "Cooking Conversion Web Application"
     excerpt: "Built using: Flask, Python, Postgres, HTML, CSS (Flexbox)"
     btn_label: More info / view webapp
-  - image_path: /assets/images/website.jpg
-    url: /portfolio
-    alt: "davidprestage.com"
-    title: "Portfolio website davidprestage.com"
-    excerpt: "Built using: Jekyll"
+  - url: /university
+    image_path: /assets/images/birmingham.jpg
+    alt: "Birmingham University"
+    title: "Birmingham University Taught Coding Assignments"
+    excerpt: "Languages covered: Java, SQL"
     btn_label: More info
   - url: /cs50
     image_path: /assets/images/cs50.png
@@ -31,12 +31,13 @@ feature_row1:
     btn_label: More info
 
 feature_row2:
-  - url: /university
-    image_path: /assets/images/birmingham.jpg
-    alt: "Birmingham University"
-    title: "Birmingham University Taught Coding Assignments"
-    excerpt: "Languages covered: Java, SQL"
+  - image_path: /assets/images/website.jpg
+    url: /portfolio
+    alt: "davidprestage.com"
+    title: "Portfolio website davidprestage.com"
+    excerpt: "Built using: Jekyll"
     btn_label: More info
+
 
 ---
 <body>
